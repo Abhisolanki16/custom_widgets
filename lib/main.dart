@@ -9,6 +9,7 @@ import 'package:custom_widgets/extension_demo.dart';
 import 'package:custom_widgets/image_picker/image_picker_demo.dart';
 import 'package:custom_widgets/location/location_demo.dart';
 import 'package:custom_widgets/network_manager.dart';
+import 'package:custom_widgets/pagination/pagination_demo.dart';
 import 'package:custom_widgets/permission/app_permission_demo.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -72,6 +73,7 @@ class MainPage extends StatelessWidget {
     "Image Picker Demo": const ImagePickerDemo(),
     "Permission Demo": const AppPermissionDemo(),
     "Location Demo": const LocationDemo(),
+    "Pagination Demo": const ApiPaginationDemo(),
   };
 
   @override
